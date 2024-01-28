@@ -16,6 +16,8 @@ chatbot/
 │   ├── __init__.py        # Makes pattern_matching a Python package
 │   └── matcher.py         # For pattern matching utilities
 │
-└── text_generation/
-    ├── __init__.py        # Makes text_generation a Python package
-    └── generator.py       # For generating natural language text
+├── text_generation/
+│   ├── __init__.py        # Makes text_generation a Python package
+│   └── generator.py       # For generating natural language text
+│
+└── greeting.py            # For handling greetings
