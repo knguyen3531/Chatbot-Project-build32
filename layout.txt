@@ -1,0 +1,21 @@
+chatbot/
+│
+├── main.py                # Main script to run the chatbot
+│
+├── nlp_utils/
+│   ├── __init__.py        # Makes nlp_utils a Python package
+│   ├── preprocessing.py   # For tokenization, stemming, lemmatization
+│   ├── vectorization.py   # For bag-of-words and other vector models
+│   └── word_embeddings.py # For deeper language representations (e.g., word2vec)
+│
+├── seq2seq/
+│   ├── __init__.py        # Makes seq2seq a Python package
+│   └── translator.py      # For sequence-to-sequence translation models
+│
+├── pattern_matching/
+│   ├── __init__.py        # Makes pattern_matching a Python package
+│   └── matcher.py         # For pattern matching utilities
+│
+└── text_generation/
+    ├── __init__.py        # Makes text_generation a Python package
+    └── generator.py       # For generating natural language text
